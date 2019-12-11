@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-11T10:28:34.414Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="7NMVIeUqTU2M0AHT-5hz" version="12.3.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-11T10:30:52.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="3GbKpTW626AxDox1LtBt" version="12.3.9" type="github" pages="1">
   <diagram id="lIEj3yTJJtI_6PWhw0XE" name="第 1 页">
     <mxGraphModel dx="768" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,6 +126,27 @@
         </mxCell>
         <mxCell id="SwAw4xg88gmh7lAkYRVZ-47" value="IPC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="475" y="235" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="SwAw4xg88gmh7lAkYRVZ-48" value="长连接系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SwAw4xg88gmh7lAkYRVZ-49" value="APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="SwAw4xg88gmh7lAkYRVZ-50" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SwAw4xg88gmh7lAkYRVZ-49" target="SwAw4xg88gmh7lAkYRVZ-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="380" as="sourcePoint"/>
+            <mxPoint x="200" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwAw4xg88gmh7lAkYRVZ-52" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.45;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="SwAw4xg88gmh7lAkYRVZ-1" target="SwAw4xg88gmh7lAkYRVZ-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="340" as="sourcePoint"/>
+            <mxPoint x="330" y="300" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwAw4xg88gmh7lAkYRVZ-53" value="TCP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="110" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
