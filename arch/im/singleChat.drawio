@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-04T06:27:19.659Z" agent="Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="5eSIghPKCtCaW9Tn7C3U" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-04T06:34:41.735Z" agent="Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="6hlcpN0G8JOKycDWF8u4" version="12.4.8" type="github">
   <diagram id="KFPWuCin9HiiDJ0GUUOY" name="Page-1">
     <mxGraphModel dx="806" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -73,8 +73,8 @@
             <mxPoint x="369" y="157" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gE9azoA6skdPwoxY1DG7-35" value="1. 使用写扩散，同步写&lt;br&gt;2.会话的每条消息分别写入发送者和接受者的收信箱&lt;br&gt;3.每个收信箱分别维护顺序递增id" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="177" y="200" width="190" height="60" as="geometry"/>
+        <mxCell id="gE9azoA6skdPwoxY1DG7-35" value="&lt;br&gt;&lt;br&gt;1. 使用写扩散，同步写&lt;br&gt;2.会话的每条消息分别写入发送者和接受者的收信箱&lt;br&gt;3.每个收信箱分别维护顺序递增id&lt;br&gt;4.收信箱每条消息格式包括:发送者、接收者、消息id、消息内容、消息类型" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="139" y="181" width="203" height="130" as="geometry"/>
         </mxCell>
         <mxCell id="gE9azoA6skdPwoxY1DG7-36" value="Id自增服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="259" y="57" width="60" height="30" as="geometry"/>
