@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-05T05:30:19.313Z" agent="Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="k3Q5M9_IHA1uMbg_j-FV" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-05T05:30:58.354Z" agent="Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="B8kWrnP7VCuHD6wFPnJM" version="12.4.8" type="github">
   <diagram id="bsD2x_KO6xM0R5m1DpQU" name="Page-1">
     <mxGraphModel dx="773" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,9 +54,6 @@
             <mxPoint x="510" y="260" as="sourcePoint"/>
             <mxPoint x="190" y="510" as="targetPoint"/>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="HvTuLi2SZUOxGm0iaF9G-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bDoEGVB2bOE2O_HxwMG5-3" target="wW9nk24ufCQ6Eqpu4SKE-22" edge="1">
-          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="bDoEGVB2bOE2O_HxwMG5-3" value="1.认证鉴权&lt;br&gt;2.心跳&lt;br&gt;3.上下线&lt;br&gt;4.进出群" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="329" y="280" width="137" height="20" as="geometry"/>
