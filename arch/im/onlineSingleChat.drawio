@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-31T15:06:41.936Z" agent="Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="6UVrtijLW70Db-JGScJC" version="12.6.2" type="github">
+<mxfile host="www.draw.io" modified="2020-01-31T15:14:07.105Z" agent="Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Q8RhmKqdph079clMO5hB" version="12.6.2" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="773" dy="378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -100,8 +100,8 @@
         <mxCell id="PcQ4e6wnhGGZFkVPTAP7-2" value="2. 发送消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="155" width="121" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="W4MqOaN26QXIW7EqgqUK-1" value="6. 下发消息(pb协议)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="210" y="351" width="110" height="20" as="geometry"/>
+        <mxCell id="W4MqOaN26QXIW7EqgqUK-1" value="7.存储消息到本地并加入会话" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="351" width="170" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="W4MqOaN26QXIW7EqgqUK-3" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -112,10 +112,10 @@
         <mxCell id="W4MqOaN26QXIW7EqgqUK-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="285" y="420" width="10" height="75" as="geometry"/>
         </mxCell>
-        <mxCell id="W4MqOaN26QXIW7EqgqUK-5" value="6. 确认消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="W4MqOaN26QXIW7EqgqUK-5" value="8. 确认消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="172" y="441" width="110" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="ZvRYTC18ovLtI7Ebb16t-18" value="9.根据发送者uid 把消息加入不同会话" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;" parent="1" edge="1">
+        <mxCell id="ZvRYTC18ovLtI7Ebb16t-18" value="9.根据发送者uid 把消息加入不同会话" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.286;entryPerimeter=0;exitX=1.038;exitY=0.345;exitPerimeter=0;fontColor=none;noLabel=1;" parent="1" edge="1">
           <mxGeometry x="0.3007" y="-73" relative="1" as="geometry">
             <mxPoint x="152" y="360" as="sourcePoint"/>
             <mxPoint x="157" y="398" as="targetPoint"/>
