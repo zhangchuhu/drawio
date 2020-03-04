@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-03-04T03:08:32.731Z" agent="Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="Fbxmh8Ih9g0sed8tNRWJ" version="12.7.9" type="github">
+<mxfile host="www.draw.io" modified="2020-03-04T03:27:33.673Z" agent="Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.122 Safari/537.36" etag="G7L7faJrtgC8g4gzyYAA" version="12.7.9" type="github">
   <diagram id="bsD2x_KO6xM0R5m1DpQU" name="Page-1">
     <mxGraphModel dx="773" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
         <mxCell id="HvTuLi2SZUOxGm0iaF9G-20" value="同步写收信箱、发信箱" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="565" y="324" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="HvTuLi2SZUOxGm0iaF9G-21" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;proxy:部署在边缘机房，客户端通过智能dns就近接入本地缓存uid-&amp;gt;connection对应关系&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;logicService：处理认证、心跳、上下线、进出群&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;pushService:单播，广播，接收到消息后转发给comet，之后再由proxy把消息发出去&lt;/span&gt;&lt;/li&gt;&lt;li&gt;imService:聊天服务器，处理单聊群聊，离线消息&lt;/li&gt;&lt;li&gt;cosumerService:对普通群消息进行异步写扩散&lt;/li&gt;&lt;li&gt;&lt;span&gt;authService:认证服务&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="HvTuLi2SZUOxGm0iaF9G-21" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;proxy:部署在边缘机房，客户端通过智能dns就近接入本地缓存uid-&amp;gt;connection对应关系&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;logicService：处理认证、心跳、上下线、进出群&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span&gt;pushService:单播，广播，接收到消息后转发给proxy，之后再由proxy把消息发出去&lt;/span&gt;&lt;/li&gt;&lt;li&gt;imService:聊天服务器，处理单聊群聊，离线消息&lt;/li&gt;&lt;li&gt;cosumerService:对普通群消息进行异步写扩散&lt;/li&gt;&lt;li&gt;&lt;span&gt;authService:认证服务&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="230" y="520" width="500" height="150" as="geometry" />
         </mxCell>
         <mxCell id="HvTuLi2SZUOxGm0iaF9G-22" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="wW9nk24ufCQ6Eqpu4SKE-18" edge="1">
@@ -202,7 +202,7 @@
             <mxPoint x="190" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Mj50uXpJaBh8ic_J06-e-1" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HvTuLi2SZUOxGm0iaF9G-7">
+        <mxCell id="Mj50uXpJaBh8ic_J06-e-1" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="HvTuLi2SZUOxGm0iaF9G-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="444" as="sourcePoint" />
             <mxPoint x="420" y="400" as="targetPoint" />
