@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-06-08T06:26:53.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="Ac-SRIh0Fji9WLAmHj7b" version="13.1.12" type="github">
+<mxfile host="app.diagrams.net" modified="2020-06-08T06:49:20.548Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36" etag="L8-9lKk5l0mVVgcoBDCl" version="13.1.12" type="github">
   <diagram id="7Y1ZfcdFTE9GypMD3FCE" name="Page-1">
-    <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,10 +14,10 @@
           <mxGeometry x="98" y="180" width="60" height="180" as="geometry" />
         </mxCell>
         <mxCell id="PumyFFIoUu43u3X-Bv62-4" value="oauth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="10" y="242" width="90" height="20" as="geometry" />
+          <mxGeometry x="140" y="230" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PumyFFIoUu43u3X-Bv62-6" value="updateUserProfile" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="10" y="262" width="90" height="20" as="geometry" />
+          <mxGeometry x="140" y="290" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PumyFFIoUu43u3X-Bv62-10" value="tcpServer&lt;br&gt;(grpc服务)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="260" y="180" width="56" height="180" as="geometry" />
@@ -39,6 +39,9 @@
             <mxPoint x="480" y="267" as="sourcePoint" />
             <mxPoint x="430" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="f4aNZqKJnc6KawGVwCoS-6" value="middleware" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
