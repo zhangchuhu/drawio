@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-10T07:07:56.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ltgQApDJOlM63mrcNN5U" version="14.1.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-01-10T07:12:21.008Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="3ruftB7dMT_ifiqvvSd1" version="14.1.8" type="github" pages="3">
   <diagram id="bsD2x_KO6xM0R5m1DpQU" name="通用架构">
     <mxGraphModel dx="2125" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -214,7 +214,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of 通用架构" id="VZDM5TYmctnz_xgUdN-r">
+  <diagram name="普通聊天" id="VZDM5TYmctnz_xgUdN-r">
     <mxGraphModel dx="2125" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VJfIBsu-8aprxcizixco-0" />
