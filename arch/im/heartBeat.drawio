@@ -1,1 +1,133 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T11:33:22.678Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" version="14.2.7" etag="RH22x1JdfJWSpXWOGLJS" type="github"><diagram id="ldgaasPHQh8wi35pFEKV">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-28T14:31:07.959Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="zQ1Ss1FGW0ZnozafHbft" version="14.2.7" type="github">
+  <diagram id="ldgaasPHQh8wi35pFEKV" name="Page-1">
+    <mxGraphModel dx="1298" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-1" value="建立连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-2" value="发送消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-3" value="是否空闲" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="320" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-5" value="发送心跳" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="111" y="424" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-6" value="是否&lt;br&gt;收到响应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-7" value="是否连续多次没&lt;br&gt;收到响应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="600" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-8" value="连接无效" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="700" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-9" value="断线重连" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="780" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-10" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-1" target="UFBeatSnOEfu5NZ-dA67-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="230" as="sourcePoint" />
+            <mxPoint x="255" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-2" target="UFBeatSnOEfu5NZ-dA67-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-12" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-3" target="UFBeatSnOEfu5NZ-dA67-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UFBeatSnOEfu5NZ-dA67-12">
+          <mxGeometry x="-0.1387" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-13" value="" style="endArrow=classic;html=1;exitX=0.433;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-5" target="UFBeatSnOEfu5NZ-dA67-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-6" target="UFBeatSnOEfu5NZ-dA67-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-7" target="UFBeatSnOEfu5NZ-dA67-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-20" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UFBeatSnOEfu5NZ-dA67-15">
+          <mxGeometry x="-0.4" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-16" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-8" target="UFBeatSnOEfu5NZ-dA67-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="590" as="sourcePoint" />
+            <mxPoint x="440" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="550" as="sourcePoint" />
+            <mxPoint x="100" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-18" value="连接可用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="600" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-21" value="接收连接" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-22" value="下发消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="240" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-23" value="心跳是否过期" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="320" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-24" value="断开连接&lt;br&gt;清理资源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="424" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-21" target="UFBeatSnOEfu5NZ-dA67-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-22" target="UFBeatSnOEfu5NZ-dA67-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="210" as="sourcePoint" />
+            <mxPoint x="365" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-27" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UFBeatSnOEfu5NZ-dA67-23" target="UFBeatSnOEfu5NZ-dA67-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="480" as="sourcePoint" />
+            <mxPoint x="440" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-28" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UFBeatSnOEfu5NZ-dA67-27">
+          <mxGeometry x="-0.4091" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UFBeatSnOEfu5NZ-dA67-29" value="心跳处理流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="830" width="110" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
