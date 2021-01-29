@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2021-01-28T15:09:21.269Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" version="14.2.7" etag="x3mM8pMIBC6Lp1rBtS6e" type="github"><diagram id="xw9er55yCzGuHiQc9Wp-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-29T00:26:54.936Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="abFNPTBhsI-ZUD9uE4HD" version="14.2.7" type="github">
+  <diagram id="xw9er55yCzGuHiQc9Wp-" name="Page-1">
+    <mxGraphModel dx="706" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-1" value="client A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-2" value="sever" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="375" y="360" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-5" value="" style="endArrow=classic;html=1;exitX=1.033;exitY=0.383;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6oqxwlKApQVvWAGj7Qz7-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="350" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-7" value="1、发消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6oqxwlKApQVvWAGj7Qz7-5">
+          <mxGeometry x="-0.2448" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-6" value="client B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-8" value="" style="endArrow=classic;html=1;exitX=0.433;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6oqxwlKApQVvWAGj7Qz7-2" target="6oqxwlKApQVvWAGj7Qz7-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="440" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-10" value="2、写DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6oqxwlKApQVvWAGj7Qz7-8">
+          <mxGeometry x="-0.2634" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6oqxwlKApQVvWAGj7Qz7-2" target="6oqxwlKApQVvWAGj7Qz7-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="440" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6oqxwlKApQVvWAGj7Qz7-11" value="3、下发消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6oqxwlKApQVvWAGj7Qz7-9">
+          <mxGeometry x="-0.0417" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
